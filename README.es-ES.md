@@ -1,30 +1,11 @@
 # Algoritmos y Estructuras de Datos en JavaScript
 
-[![CI](https://github.com/trekhleb/javascript-algorithms/workflows/CI/badge.svg)](https://github.com/trekhleb/javascript-algorithms/actions?query=workflow%3ACI+branch%3Amaster)
-[![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
-
 Este repositorio contiene ejemplos basados en JavaScript de muchos
 algoritmos y estructuras de datos populares.
 
 Cada algoritmo y estructura de datos tiene su propio LÉAME con explicaciones relacionadas y
 enlaces para lecturas adicionales (incluyendo algunas a vídeos de YouTube).
 
-_Léelo en otros idiomas:_
-[_English_](https://github.com/trekhleb/javascript-algorithms/),
-[_简体中文_](README.zh-CN.md),
-[_繁體中文_](README.zh-TW.md),
-[_한국어_](README.ko-KR.md),
-[_日本語_](README.ja-JP.md),
-[_Polski_](README.pl-PL.md),
-[_Français_](README.fr-FR.md),
-[_Português_](README.pt-BR.md),
-[_Русский_](README.ru-RU.md),
-[_Türk_](README.tr-TR.md),
-[_Italiana_](README.it-IT.md),
-[_Bahasa Indonesia_](README.id-ID.md),
-[_Українська_](README.uk-UA.md),
-[_Arabic_](README.ar-AR.md),
-[_Deutsch_](README.de-DE.md)
 
 *☝ Nótese que este proyecto está pensado con fines de aprendizaje e investigación,
 y **no** para ser usado en producción.*
@@ -250,18 +231,18 @@ npm test -- 'playground'
 
 [▶ Estructuras de datos y algoritmos en YouTube](https://www.youtube.com/playlist?list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
 
-### Notación O Grande
+### Notación Big O
 
-Orden de crecimiento de los algoritmos especificados en la notación O grande.
+Orden de crecimiento de los algoritmos especificados en la notación Big O.
 
-![Gráficas de Notación O grande ](./assets/big-o-graph.png)
+![Gráficas de Notación Big O ](./assets/big-o-graph.png)
 
 Fuente: [Big O Cheat Sheet](http://bigocheatsheet.com/).
 
 A continuación se muestra la lista de algunas de las notaciones de Big O más utilizadas y sus comparaciones de rendimiento
 frente a diferentes tamaños de los datos de entrada.
 
-| Notación O grande | Cálculos para 10 elementos | Cálculos para 100 elementos | Cálculos para 1000 elementos |
+| Notación Big O | Cálculos para 10 elementos | Cálculos para 100 elementos | Cálculos para 1000 elementos |
 | ----------------- | -------------------------- | --------------------------- | ---------------------------- |
 | **O(1)**          | 1                          | 1                           | 1                            |
 | **O(log N)**      | 3                          | 6                           | 9                            |
